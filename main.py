@@ -3,12 +3,12 @@ from discord.ext import commands
 import random
 import json
 
-
+# oh yeah also turn on  msg content intent for it to work
 intents = discord.Intents.default()
 intents.message_content = True
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='!', intents=intents)
 
-TOKEN = "BOT_TOKEN"
+
 
 
 # Load quotes from JSON file
@@ -44,4 +44,6 @@ async def randomquote(ctx):
         quote_message = f'"{quote_text}" - {author_name}'
         await ctx.send(quote_message)
 
-bot.run('TOKEN')
+TOKEN = "your app token"
+
+bot.run(TOKEN)
