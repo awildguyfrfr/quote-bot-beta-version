@@ -1,6 +1,6 @@
 # quote-bot-beta-version
 this is a older and much more simplified version of quote master for you all to use for a templete ig
-oh yeah also turn on the msg content intent for it to work
+oh yeah also turn on the msg content intent for it to work, 
 this uses discord.py gotta shout them out for that lmao
 also invite the current bot
 https://discord.com/api/oauth2/authorize?client_id=1126132615456509972&permissions=9194989513793&scope=bot
